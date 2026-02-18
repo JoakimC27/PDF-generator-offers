@@ -61,7 +61,7 @@ This project was built to automate commercial offer generation in a retail envir
 
 ---
 
-## 📌 Author
+## 👤 Author
 
 Developed by Joaqo  
 Self-taught developer focused on practical problem solving and system improvement.
