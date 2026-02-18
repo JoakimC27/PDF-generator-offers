@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+        <script src="carteleria.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    </head>
+    <body>
+        <div id="leer">
+            <h1>Leer Excel</h1>
+            <h3>Creador: Joaquin Calleros!</h3>
+            <input type="file" id="fileInput" onclick="renderizado()" accept=".xlsx">
+        </div>
+        <div id="output"></div>
+        <div id="generar" style="display: none;">
+            <input type="button" onclick="seleccionarArticulo()"  value="Generar">
+        </div>
+    </body>
+</html>
